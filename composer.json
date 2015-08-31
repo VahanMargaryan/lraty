@@ -1,0 +1,30 @@
+{
+    "name": "vahanmargaryan/lraty",
+    "description": "Raty package for Laravel 5.",
+    "keywords": ["rating","raty", "laravel", "laravel 5", "seo"],
+    "homepage": "http://github.com/vahanmargaryan/lraty",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vahan Margaryan",
+            "email": "vahan@margaryan.info",
+            "homepage": "http://vahan.margaryan.info",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/vahanmargaryan/lraty/issues"
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "VahanMargaryan\\Lraty\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
