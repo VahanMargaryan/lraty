@@ -1,8 +1,8 @@
-<?php namespace VahanMargaryan\Lraty\Facades;
+<?php namespace VahanMargaryan\Lraty;
  
 use Illuminate\Support\Facades\Facade;
  
-class Lraty extends Facade {
+class LratyFacade extends Facade {
  
   /**
    * Get the registered name of the component.
